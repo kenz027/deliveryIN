@@ -1,0 +1,126 @@
+.additional-info-full{
+    width:100%;
+    background-color:rgba(254, 227, 149, 1);
+    height:420px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    border:none;
+    border-radius:20px 20px 0px 0px;
+}
+.additional-info-1{
+    padding:60px 40px;
+    width:1240px;
+    height:200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    background-color:rgba(254, 227, 149, 1);
+    
+}
+.contacts-headings{
+    margin: 0;
+    font-size:25px;
+}
+.contacts{
+    flex-direction: row;
+    max-height: 600px;
+    align-items: center;
+}
+.additional-info-list{
+    padding-left:0;
+    max-width:167px;
+}
+.additional-info-links{
+    color:gray;
+    font-size:15px;
+}
+.additional-info-icons{
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    width:150px;
+}
+@media all and (max-width:1424px){
+   .additional-info-full{
+        width:100%;
+        background-color:rgba(254, 227, 149, 1);
+        height:320px;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        flex-direction: column;
+        border:none;
+        border-radius:20px 20px 0px 0px;
+    }
+    .additional-info-1{
+        padding:60px 40px;
+        width:840px;
+        height:200px;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: top;
+        background-color:rgba(254, 227, 149, 1);
+
+    }
+    .additional-info-list{
+        padding-left:0;
+        max-width:167px;
+    }
+    .additional-info-links{
+        color:gray;
+        font-size:15px;
+    }
+    .additional-info-icons{
+        display: flex;
+        align-items: top;
+        justify-content: space-between;
+        width:150px;
+        height: 120px;
+    } 
+}
+@media all and (max-width:990px){
+    .additional-info-full{
+        width:100%;
+        background-color:rgba(254, 227, 149, 1);
+        height:420px;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        flex-direction: column;
+        border:none;
+        border-radius:20px 20px 0px 0px;
+    }
+    .additional-info-1{
+        padding:0px 0px;
+        width:450px;
+        height:200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: top;
+        background-color:rgba(254, 227, 149, 1);
+
+    }
+    .contacts-headings{
+         margin: 0;
+        font-size:13px;
+    }
+    .additional-info-list{
+        height: 95px;
+        margin: 0;
+        padding-left:0;
+        max-width:110px;
+    }    
+    .additional-info-links{
+        color:gray;
+        font-size:9px;
+    }
+    .additional-info-icons{
+        display: flex;
+        flex-direction: column;
+        height:120px;
+        width:40px;
+    }
+}
